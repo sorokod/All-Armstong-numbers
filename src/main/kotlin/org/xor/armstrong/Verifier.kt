@@ -57,8 +57,3 @@ fun isPermutation(b: ByteArray, s: String): Boolean {
 
 fun verify(digits: ByteArray): Boolean =
     isPermutation(digits, aSum(digits));
-
-fun main() {
-    aSum(byteArrayOf(9,7,4,4)).also { println(it) } //9474
-    aSum(byteArrayOf(9,7,4,4)).also { println(it) } //9474
-}
